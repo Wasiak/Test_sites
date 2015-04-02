@@ -24,6 +24,7 @@ h2 {
 }
 ul {
 	margin-left: -20px;
+	margin-top: 12px !important;
 }
 ul > li {
 	display: inline;
