@@ -82,6 +82,7 @@
 	margin: 8px;
 	/*position: fixed;*/
 	bottom: 270px;
+	transform: rotateZ(25deg);
 }
 .gallery {
 	z-index: 99;
@@ -98,4 +99,13 @@
 	top: 115px;
 	right:115px;
 	background-color: #fff;
+	text-align: center;
+	padding: 20px;
+	font-size: 40px;
+}
+#jeden {
+	transform: rotateZ(-25deg);
+}
+#trzy {
+	transform: rotateZ(-30deg);
 }
