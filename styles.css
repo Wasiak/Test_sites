@@ -120,6 +120,7 @@ ol {
 	border: solid black 0.5px;
 	border-radius: 5px;
 	margin: 8px;
+	width: 150px !important;
 }
 .second {
 	margin-top: 10px;
