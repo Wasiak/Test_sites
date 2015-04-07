@@ -116,7 +116,7 @@
 	width: 200px;
 	min-height: 300px;
 	display: inline-block;
-	/*float: left;*/
+	float: left;
 }
 .back {
 	width: 100%;
@@ -161,8 +161,8 @@
 	font-size: 20px;
 }
 .shop{
-	width: 792px;
-	background-color: red;
+	width: 796px;
+	/*background-color: red;*/
 	display: inline-block;
 	/*float: right;*/
 	min-height: 300px;
@@ -182,7 +182,7 @@ td {
 }
 .shopTable {
 	width: 100%;
-	margin-bottom: 1px;
+	/*margin-bottom: 1px;*/
 }
 /*.footForOpt {
 	position: absolute !important;
@@ -253,4 +253,11 @@ td {
 	bottom: 90px;
 	left: calc(65% + 35% / 4 - 25px);
 	font-size: 20px;
+}
+.one-prod {
+	display: inline-block;
+	width: 33%;
+	height: 250px;
+	background-color: rgba(255, 255, 255, 0);
+	padding:0px;
 }
