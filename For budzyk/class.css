@@ -12,6 +12,7 @@
 	margin-top: 20px;
 	position: relative;
 	/*overflow: auto;*/
+	vertical-align: top;
 }
 .baner {
 	width:100%;
@@ -160,11 +161,12 @@
 	font-size: 20px;
 }
 .shop{
-	width: 796px;
+	width: 792px;
 	background-color: red;
-	display: inline;
-	float: right;
+	display: inline-block;
+	/*float: right;*/
 	min-height: 300px;
+	/*margin-bottom: 150px;*/
 }
 .descript {
 	width: 100%;
@@ -173,11 +175,82 @@
 	padding: 15px;
 }
 td {
-	width: 33,3333%;
+	width: 262px;
 	height: 250px;
 	background-color: #fff;
+	padding:0px;
 }
 .shopTable {
 	width: 100%;
 	margin-bottom: 1px;
+}
+/*.footForOpt {
+	position: absolute !important;
+}
+.mainForOpt {
+	overflow: auto;
+}*/
+.product {
+	width:65%;
+	height: 65%;
+	margin: auto;
+	margin-top: calc(35% / 2);
+	background-color: lightblue;
+	border: grey solid 2px;
+	position: relative;
+}
+.add {
+	border: solid black 1px;
+	background-color: green;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	z-index: 9;
+	bottom: calc(50% - 25px);
+	left: calc(35% / 4);
+	display: inline-block;
+	text-align: center;
+	font-size: 40px;
+}
+.minus {
+	border: solid black 1px;
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	z-index: 9;
+	bottom: calc(50% - 25px);
+	/*left: calc(65% + 35% / 4);*/
+	display: inline-block;
+	float: right;
+	margin-right: calc(35% / 4);
+	text-align: center;
+	font-size: 40px;	
+}
+.amount {
+	background-color: lightgrey;
+	border: solid grey 2px;
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	padding:5px;
+	text-align: center;
+	position: relative;
+	z-index: 9;
+	bottom: calc(35% - 9px);
+	left: calc(35% / 4 + 4px);
+	font-size: 20px;
+}
+.price {
+	/*background-color: blue;*/
+	width: 50px;
+	height: 30px;
+	padding:2px;
+	text-align: center;
+	position: relative;
+	z-index: 9;
+	/*bottom: calc(35% - 24px);*/
+	bottom: 90px;
+	left: calc(65% + 35% / 4 - 25px);
+	font-size: 20px;
 }
