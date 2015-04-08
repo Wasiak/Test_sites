@@ -413,3 +413,50 @@
 	display: inline !important;
 	margin-left: 80px;
 }
+.links-page {
+	/*min-height: 300px;*/
+	padding-top: 50px;
+	padding-left: 50px;
+	/*float: left;*/
+	display: inline-block;
+	width: 800px;
+}
+.links-page h1{
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.last {
+	min-height: 300px;
+}
+.link-list {
+	list-style: none;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: -20px;
+}
+.link-list a {
+	color:#000;
+}
+.create-acc {
+	width: 240px;
+	/*height: 60px;*/
+	border: solid grey 2px;
+	border-radius: 10px;
+	background-color: lightgrey;
+	font-size: 15px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	padding:5px;
+}
+.right-pic {
+	border: solid green 2px;
+	width: 180px;
+	height: 280px;	
+	position: absolute;
+	z-index: 99;
+	bottom: 140px;
+}
+.last-pic {
+	/*float:right;*/
+	display: inline-block;	
+}
