@@ -460,3 +460,19 @@
 	/*float:right;*/
 	display: inline-block;	
 }
+@media (max-width: 600px) {
+	.mainCont {
+		width: 500px;
+		overflow: auto;
+	}
+	.pics {
+		display: none;
+	}
+	#piec {
+		display: inline-block;
+		margin-left: 320px;
+	}
+	.footer {
+		width: 100%;
+	}
+}
