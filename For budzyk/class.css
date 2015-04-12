@@ -460,9 +460,12 @@
 	/*float:right;*/
 	display: inline-block;	
 }
+.menu-button {
+	display: none;
+}
 @media (max-width: 600px) {
 	.mainCont {
-		width: 500px;
+		width: 85%;
 		overflow: auto;
 	}
 	.pics {
@@ -474,5 +477,31 @@
 	}
 	.footer {
 		width: 100%;
+	}
+	.drop {
+		display: none;
+	}
+	.menu-button {
+	border-left: 2px solid grey;
+	width: 60px;
+	height: 58px;
+	float: right;
+	font-size: 25px;
+	text-align: center;
+	padding: 10px;	
+	display: inline-block;
+	background-color: darkgrey;	
+	}
+	.ask {
+		display: none;
+	}
+	.optionSelect {
+		width: 95%;
+		margin-top: 30px;
+		border: none;
+		background-color: rgba(0, 0, 0, 0);
+	}
+	.searchbox {
+		width: 90%;
 	}
 }
