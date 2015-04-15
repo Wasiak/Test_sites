@@ -463,6 +463,12 @@
 .menu-button {
 	display: none;
 }
+.mobile-help {
+	display: none;
+}
+.arrow {
+	display: none;;
+}
 @media (max-width: 600px) {
 	.mainCont {
 		width: 85%;
@@ -475,7 +481,7 @@
 		display: inline-block;
 		margin-left: 51%;
 		position: absolute;
-		bottom: 10px;
+		bottom: -30px;
 		right: 10px;
 	}
 	.footer {
@@ -516,5 +522,37 @@
 		bottom: 110px;
 		width: 100%;
 		height: 100%;
+	}
+	.footList {
+		display: none;
+	}
+	.footer {
+		height: 80px;
+	}
+	.options span {
+		display: block;
+	}
+	.options {
+		margin-bottom: -80px;
+	}
+	.mobile-help {
+		display: inline-block;
+		width: 100%;
+		background-color: lightgrey;
+		border-top: 2px solid  grey;
+		/*height: 30px;*/
+		text-align: center;
+		padding:5px;
+		font-size: 18px;
+		color: grey;
+	}
+	.arrow {
+		display: inline;
+		/*border: solid black 1px;*/
+		font-size: 30px;
+		float: right;
+		color: grey;
+		margin-top: -45px;
+
 	}
 }
