@@ -475,6 +475,9 @@
 .mobile-back {
 	display: none;
 }
+.prod-name {
+	display: none;
+}
 @media (max-width: 600px) {
 	.mainCont {
 		width: 85%;
@@ -607,15 +610,49 @@
 	.one-prod {
 		background-color: darkgrey;
 		border: solid grey 2px;
-		width: 80%;
-		margin-left: 10%;
+		width: 90%;
+		margin-left: 5%;
 		position: relative;
 		z-index: 99;
 		height: 200px;
 		/*padding: 5%;*/
 	}
 	.product {
-		height: 90%;
-		margin:0;
+		height: 98%;
+		margin:2px;
+		width: 50%;
+		display: inline-block;
+	}
+	.prod-name {
+		display: inline-block;
+		/*float: right;*/
+		/*margin: 25px;*/
+		z-index: 9;
+		position: relative;
+		bottom: 165px;
+		left: calc(12%);
+	}
+	.price {
+		bottom: 220px;
+		left: calc(65% + 35% / 15px);
+	}
+	.add {
+		width: 40px;
+		height: 40px;
+		left: calc(50% + 35% / 4 - 10px);
+		display: block;
+	}
+	.minus {
+		width: 40px;
+		height: 40px;
+		bottom: calc(50% + 15px);
+		display: block;
+		margin-right: calc(35% / 4 - 10px);
+	}
+	.amount {
+		bottom: calc(50% + 10px);
+		left: calc(50% + 35% / 2 + 8px);
+		border: none;
+		background-color: rgba(0, 0, 0, 0);
 	}
 }
