@@ -727,4 +727,43 @@
 	.product-list {
 		width: 0px;
 	}
+	.checkout .qty {
+		border: none !important;
+		margin-right: 10px;
+	}
+	.checkout .product-list tr td:nth-child(2) {
+		text-align: left;
+	}
+	.checkout .product-list-item {
+		text-align: left;
+	}
+	.checkout .order {
+		left: -50px !important;
+		top: -20px !important;
+	}
+	.final-price {
+		margin-left: 230px;
+		width: 150px;
+	}	
+	.final-price p {
+		margin: 0;
+	}
+	.final-price span {
+		border: none;
+		font-size: 28px;
+		margin-top: -15px;
+	}
+	.form label {
+		display: none;
+	}
+	.inputs {
+		float: left;
+	}
+	.pay-button {
+		width: 90%;
+		margin-right: 5%;
+	}
+	.inputs input:first-child {
+		background-color: red;
+	}
 }
