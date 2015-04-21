@@ -745,7 +745,7 @@
 		top: -20px !important;
 	}
 	.final-price {
-		margin-left: 230px;
+		margin-left: calc(100% - 150px);
 		width: 150px;
 	}	
 	.final-price p {
@@ -759,8 +759,13 @@
 	.form label {
 		display: none;
 	}
+	.form  {
+		width: 95%;
+		margin-left: 2%;
+	}
 	.inputs {
 		float: left;
+		margin-left: 9%;
 	}
 	.pay-button {
 		width: 90%;
@@ -774,5 +779,19 @@
 	}
 	.inputs-small-screen {
 		display: block;
+	}
+	.links-page {
+		width: 100%;
+		padding-left: 0px;
+	}
+	.links-page h1 {
+		font-size: 28px;
+		text-align: center;
+	}
+	.create-acc {
+		width: 95%;
+		border: none;
+		background-color: transparent;
+		text-align: center;
 	}
 }
