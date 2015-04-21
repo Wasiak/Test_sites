@@ -11,11 +11,14 @@
 	<body>
 		<div class = 'mainCont mainForOpt'>
 			<div class = 'baner'>
-				<img class = 'logo' src = 'http://lorempixel.com/58/150/'>
+				<div class = 'mobile-back'><</div>
+				<img class = 'logo mobile-logo' src = 'http://lorempixel.com/58/150/'>
+				<div class = 'mobile-option'>CHECKOUT</div>
 				<div class = 'drop'>PL</div>	
 				<div class = 'drop'>€</div>
+				<div class = 'menu-button'>=</div>
 			</div>
-			<div class = 'leftCol'>
+			<div class = 'leftCol mobile-left'>
 				<div class = 'back'>
 					<h3>CHECKOUT</h3>
 					<div class = 'backButton'>
@@ -39,21 +42,23 @@
 					<tr class = 'product-list-item'>
 						<td>1. product name</td>
 						<td>
-							<div class = 'add prod-add'>+</div>
+							<span class = 'qty'>QTY:</span>
+							<!-- <div class = 'add prod-add'>+</div> -->
 							3	
-							<div class = 'minus'>-</div>	
+							<!-- <div class = 'minus'>-</div>	 -->
 						</td>
-						<td>15€</td>
+						<td class = 'order'>15€</td>
 						<td>45€</td>
 					</tr>
 					<tr class = 'product-list-item'>
 						<td>2. product name</td>
 						<td>
-							<div class = 'add prod-add'>+</div>
+							<span class = 'qty'>QTY:</span>
+							<!-- <div class = 'add prod-add'>+</div> -->
 							1	
-							<div class = 'minus'>-</div>	
+							<!-- <div class = 'minus'>-</div>	 -->
 						</td>
-						<td>15€</td>
+						<td class = 'order'>15€</td>
 						<td>15€</td>
 					</tr>
 <!-- 					<tr class = 'product-list-item'>
@@ -74,12 +79,19 @@
 						<label>Country<br></label>
 						<label>Email address<br></label>
 					</div>	
-					<div class = 'inputs'>
+					<div class = 'inputs inputs-big-screen'>
 						<input></input>					
 						<input></input>					
 						<input></input>					
 						<input></input>
 						<input></input>
+					</div>
+					<div class = 'inputs inputs-small-screen'>
+						<input placeholder = 'Name & Surname'></input>					
+						<input placeholder = 'Address'></input>					
+						<input placeholder = 'Address 2'></input>					
+						<input placeholder = 'Country'></input>
+						<input placeholder = 'Email address'></input>
 					</div>
 				</form>
 				<div class = 'pay-button'>
@@ -93,6 +105,7 @@
 					<li>term and rules</li>
 					<li>contact</li>
 				</ul>	
+				<div class = 'arrow'>⇧ </div>
 			</div>	
 		</div>
 	</body>
