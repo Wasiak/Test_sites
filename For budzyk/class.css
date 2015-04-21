@@ -481,6 +481,9 @@
 .qty {
 	display: none;
 }
+.inputs-small-screen {
+	display: none;
+}
 @media (max-width: 600px) {
 	.mainCont {
 		width: 85%;
@@ -763,7 +766,13 @@
 		width: 90%;
 		margin-right: 5%;
 	}
-	.inputs input:first-child {
+/*	.inputs input:first-child {
 		background-color: red;
+	}*/
+	.inputs-big-screen {
+		display: none;
+	}
+	.inputs-small-screen {
+		display: block;
 	}
 }
