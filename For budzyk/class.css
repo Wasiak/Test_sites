@@ -795,3 +795,52 @@
 		text-align: center;
 	}
 }
+@media (min-width: 601px) and (max-width: 1050px) {
+	.mainCont {
+		width: 98%;
+		overflow: auto;
+	}
+	.footer {
+		width: 100%;
+	}
+	.ask {
+		right: 30px;
+	}
+	.optionSelect {
+		width: 98%;
+		padding-left: 8px;
+	}
+	.searchbox {
+		width: 97%;
+	}
+	#dwa {
+		display: none;
+	}
+	#piec {
+		display: none;
+	}
+	.pics {
+		margin: 5px;
+	}
+	.shop {
+		position: relative;
+		z-index: 9999;
+		width: 100%;
+		margin-left: 25px;
+		margin-top: -150px;
+		/*margin-bottom: 70px;*/
+	}
+	.descript {
+		width: 98%;
+	}
+	.downLeft {
+		height: 0px;
+	}
+	.one-prod {
+		width: 280px;
+	}
+	.product-list {
+		width: 90%;
+		margin-top: -25px;
+	}
+}
