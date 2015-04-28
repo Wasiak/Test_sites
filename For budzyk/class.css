@@ -74,25 +74,57 @@
 	margin-top: -20px;
 }
 .footer {
-	width: 996px;
-	height: 150px;
+	width: 100%;
+	/*height: 150px;*/
 	/*position: fixed;*/
 	bottom: 0;
-	border-top: solid grey 2px;
-	padding: 15px;
+	/*border-top: solid grey 2px;*/
+	padding-bottom: 20px;
 	font-size: 18px;
 	z-index: 999;
 	/*margin-top:150px;*/
-	background-color: #fff;
+	background-color: transparent;
 	position: relative;
 	/*margin-top:100px;*/
+	color: #fff;
+}
+.footer p {
+	font-size: 12px;
+	display: inline-block;
 }
 .footList {
 	/*text-decoration: none;*/
-	float: right;
-	margin-top: -30px;
+	/*float: right;*/
+	margin-top: 20px;
 	list-style: none;
 	text-align: right;
+	font-size: 13px;
+	display: inline-block;
+	margin-left: 26px;
+}
+.footList li {
+	display: inline-block;
+	margin-left: 15px;
+}
+.footList li a {
+	text-decoration: none;
+	color: #fff;
+}
+.footer-link-list {
+	margin-left: 6%;
+	list-style: none;
+	text-align: center;
+	font-size: 15px;
+	display: inline-block;
+
+}
+.footer-link-list li {
+	display: inline-block;
+	margin: 15px;
+}
+.footer-link-list li a {
+	text-decoration: none;
+	color: #fff;
 }
 .optionSelect {
 	margin:auto;
