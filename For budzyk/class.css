@@ -1,13 +1,44 @@
 .logo {
 	float: left;
-	border: solid red 1px;
+	border: solid #fff 1px;
 	height: 58px;
 	width:150px; /* only with no logo image*/
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+.body-background {
+	background-image: url('http://lorempixel.com/1000/800/');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.pages-links {
+	margin-left: calc(50% - 200px - 150px);
+	background-color: rgba(0, 0, 0, 0);
+	/*width: 400px;*/
+	/*min-height: 50px;*/
+	display: inline-block;
+}
+.pages-links ol {
+	list-style: circle;
+	margin-left: -40px;
+}
+.pages-links ol li {
+	display: inline;
+	margin: 30px;
+}
+.pages-links ol li div {
+	border: solid #fff 1px;
+	border-radius: 20px;
+	height: 10px;
+	width: 10px;
+	background-color: #fff;
+	display: inline-block;
 }
 .mainCont {
 	margin: auto;
 	width: 1000px;
-	border:solid grey 2px;
+	/*border:solid grey 2px;*/
 	min-height: 500px;
 	margin-top: 20px;
 	position: relative;
@@ -16,19 +47,31 @@
 }
 .baner {
 	width:100%;
-	border-bottom: solid grey 2px;
+	/*border-bottom: solid grey 2px;*/
 	border-collapse: collapse;
 	min-height: 60px;
 }
 .drop {
-	border-left: 2px solid grey;
-	width: 60px;
+	/*border-left: 2px solid grey;*/
+	/*width: 60px;*/
 	height: 58px;
 	float: right;
 	/*box-shadow: none;*/
-	font-size: 25px;
+	/*font-size: 25px;*/
 	text-align: center;
 	padding: 10px;
+	color: #fff;
+}
+.drop .money {
+	border: solid #fff 1px;
+	border-radius: 20px;
+	padding: 5px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.drop .caret {
+	margin-top: -20px;
 }
 .footer {
 	width: 996px;
